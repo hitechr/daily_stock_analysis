@@ -66,7 +66,7 @@ class Config:
     # Anthropic API（支持 Claude 及兼容端点如智谱 GLM）
     anthropic_api_key: Optional[str] = None
     anthropic_base_url: Optional[str] = None  # 如: https://api.anthropic.com 或智谱兼容端点
-    anthropic_model: str = "claude-sonnet-4-20250514"  # Anthropic 模型名称
+    anthropic_model: str = "claude-opus-4-5-20251101"  # Anthropic 模型名称
     anthropic_temperature: float = 0.7  # Anthropic 温度参数（0.0-1.0，默认0.7）
     
     # === 搜索引擎配置（支持多 Key 负载均衡）===
